@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square</title>
+    <link rel="stylesheet" href="Square.css">
+
+
+</head>
+
+<body>
+    <div id="container">
+        <h2>Squareroot</h2>
+        <div>
+            <input type="number" id="input" placeholder="Enter the number">
+        </div>
+        <div>
+            <button id="button" onclick="convert()" type="submit">Square of the number</button>
+        </div>
+        <div id="result">
+        </div>
+        <div>
+            <input type="submit" onclick="popup()" value ="square">
+    </div>
+
+
+        <script>
+            function convert() {
+                let num = Number(document.getElementById("input").value);
+                let sqr = num * num;
+                let result = document.getElementById("result");
+                result.innerHTML = sqr;
+            }
+
+            function popup() {
+                let num = Number(document.getElementById("input").value);
+                let sqr = num * num;
+                alert("The square of the no is" + " " + sqr);
+            }
+        </script>
+</body>
+
+</html>

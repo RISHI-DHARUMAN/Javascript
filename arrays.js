@@ -40,3 +40,37 @@ for (let player of players) {
     console.log(player);
 }
 console.log(players[1]);
+onst animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+animals.splice(1, 2, "bull"); //delets
+console.log(animals);
+
+const animal = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+const new_array = animal.slice(2, 4);//displays
+console.log(new_array);
+
+const data = ("ronaldo, messi, neymar")
+let new_data = data.split(".");// convert string to array
+console.log(new_data);
+
+let num;
+num = 10;
+console.log(num);
+
+num = ["1", "4", "3", "2", "100"]
+var new_ = num.toString();//convert string to array
+console.log(new_);
+console.log("rishi");
+
+
+num.sort();
+console.log(num);
+
+var number = [2, 3, 4, 5, 3];
+var even = number.filter(n => (n % 2 === 0));//filter
+console.log(even);
+
+var double = number.map(n => n * 2);//map
+console.log(double);
+
+var highest = number.reduce((p, n) => p > n ? p : n);//reduce
+console.log(highest);

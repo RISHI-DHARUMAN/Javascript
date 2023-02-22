@@ -7,7 +7,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Square</title>
     <link rel="stylesheet" href="Square.css">
+    
+    <style>
+    
+   html,body{
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   background-color:#f5e8ba;
+   }
+  
+#container div,#container h2{
+    display:flex;
+    justify-content: center;
+    }
+    
+h2{
+    color:#f0efec;
+    letter-spacing: 1px;
+   } 
 
+input{
+    border-radius: 5px;
+    border: 2px solid black ;
+    margin-top:30px;
+    height:3em;
+    width:350px;
+    padding-left:10px;
+    }
+
+input:active{
+    border:none;
+   }
+   
+#container{
+    height:500px;
+    width:400px;
+    margin:200px auto;
+    background-color:#1f2029;
+    border-radius:10px;
+    padding:30px;
+    }
+
+#button{
+    margin-top:20px;
+    background-color:#ffeba7;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 800;
+    font-size: 2em;
+    font-family:'Times New Roman', Times, serif;
+    padding: 0 40px;
+    letter-spacing: 1px;
+    border: none;
+    background-color: #ffeba7;
+    color: #102770;
+    }
+
+#button:hover{
+    cursor:pointer;
+    background-color: #0a0b0e;
+    color: #f5e8ba;
+    }
+    
+#result{
+    color:white;
+    margin-top:20px;
+    font-size:32px;
+    }
+    
+#Answer{
+    
+    font-size: 20px;
+    }
+</style>
 
 </head>
 

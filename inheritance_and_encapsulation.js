@@ -26,7 +26,6 @@ class Manager extends Employee {
 const emp1 = new Employee("Rishi", "9000")
 emp1.display();
 
-
 const manager1 = new Manager("Rishi", "9000","29");
 manager1.display();
 manager1.display1();
